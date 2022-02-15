@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script type="module" src="main.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Guess The Number</h1>
+	</header>
+	<main>
+		<article>
+			<form>
+				<p>
+					Attempts: <span id="guessesLeft">XX</span>
+				</p>
+				<label>
+					Guess a number between <span id="lowerBound">X</span> and
+					<span id="upperBound">X</span>.
+					<input id="guessInput" type="number" />
+				</label>
+				<button id="guessButton">Guess</button>
+				<p>
+					Stuck? <button id="helpButton">Help</button>
+				</p>
+			</form>
+		</article>
+	</main>
+	<footer>
+
+	</footer>
+</body>
+</html>

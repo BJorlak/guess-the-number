@@ -1,0 +1,17 @@
+/* Be creative. Make this look nice-ish. */
+html {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: grey;
+  color: white;
+  font-size: 2em;
+}
+
+header {
+}
